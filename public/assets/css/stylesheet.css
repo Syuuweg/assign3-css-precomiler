@@ -68,7 +68,6 @@ h6 {
   margin: 0 auto;
 }
 
-/* header and main nav */
 header {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -81,7 +80,6 @@ header nav ul {
   margin: 20px auto 40px;
 }
 
-/* posts */
 article {
   margin-bottom: 50px;
   display: flex;

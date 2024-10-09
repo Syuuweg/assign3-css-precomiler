@@ -10,12 +10,10 @@ $color-footer-text: #989898;
 $container-width: 94%;
 $font-size-body: 15px;
 
-// Mixin for font-family
 @mixin font-family($family) {
   font-family: $family;
 }
 
-// Mixin for hover transition
 @mixin hover-transition($hover-color) {
   transition: .20s;
   &:hover {
@@ -23,7 +21,6 @@ $font-size-body: 15px;
   }
 }
 
-// Styles
 body {
     @include font-family($font-body);
     font-size: $font-size-body;
@@ -82,7 +79,7 @@ h6 {
     margin: 0 auto;
 }
 
-/* header and main nav */
+
 header {
     @include font-family($font-heading);
     
@@ -98,7 +95,6 @@ header {
     margin: 20px auto 40px;
 }
 
-/* posts */
 article {
     margin-bottom: 50px;
     display: flex;
